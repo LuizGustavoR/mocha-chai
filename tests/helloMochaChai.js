@@ -1,6 +1,6 @@
 
 const chai = require('chai');
-const expect = chai.expect;
+const should = chai.should();
 
 describe('Mathematical Operations - Test Suite', function(){
 
@@ -27,7 +27,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
         c = a + b;
 
-        expect(c).to.equal(20);
+        c.should.equal(20);
         
     });
 
@@ -37,7 +37,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
         c = a - b;
 
-        expect(c).to.equal(0);
+        c.should.equal(0);
 
     });
 
@@ -48,7 +48,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
         c = a * b;
 
-        expect(c).to.equal(100);
+        c.should.equal(100);
 
     });
 
@@ -59,7 +59,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
         c = a / b;
 
-        expect(c).to.equal(1);
+        c.should.equal(1);
 
     });
 
