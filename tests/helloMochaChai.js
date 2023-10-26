@@ -20,7 +20,7 @@ describe('Mathematical Operations - Test Suite', function(){
     //     console.log('Executed AFTER Each test');
     // });
 
-    it('Addition of two numbers', function(){
+    it('Addition of two numbers', async function(){
 
         let a = 10;
         let b = 10;
