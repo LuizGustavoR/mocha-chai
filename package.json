@@ -4,7 +4,7 @@
   "description": "",
   "main": "helloMocha.js",
   "scripts": {
-    "test": "mocha tests/helloMochaChai.js --config tests/.mocharc.json"
+    "test-mocha-chai": "mocha tests/helloMochaChai.js --config tests/.mocharc.json"
   },
   "keywords": [],
   "author": "",
