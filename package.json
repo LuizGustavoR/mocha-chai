@@ -4,13 +4,16 @@
   "description": "",
   "main": "helloMocha.js",
   "scripts": {
-    "test-mocha-chai": "mocha tests/helloMochaChai.js --config tests/.mocharc.json"
+    "test-mocha-chai": "mocha tests/helloMochaChai.js --config tests/.mocharc.json",
+    "test-chai-http": "mocha tests/mochaChaiHttp.js --config tests/.mocharc.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.10",
-    "mocha": "^10.2.0"
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
   }
 }

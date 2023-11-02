@@ -22,3 +22,4 @@ npm install
 
 # Run the tests
 npm run test-mocha-chai
+npm run test-chai-http
